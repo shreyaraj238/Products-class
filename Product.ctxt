@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Product
+comment0.text=\n\ The\ class\ models\ products\ with\ a\ name\ and\ a\ price.\n\n\ @author\ \ Qi\ Yang\n\ @version\ 2021-12-10\n
+comment1.params=nameParam\ priceParam
+comment1.target=Product(java.lang.String,\ double)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ OurProduct\n\ \n\ @param\ nameParam\ the\ name\ of\ this\ product\n\ @param\ priceParam\ the\ price\ of\ this\ product\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\n\ Gets\ the\ name\ of\ this\ product\n\ \n\ @return\ the\ name\ of\ this\ product\n
+comment3.params=
+comment3.target=double\ getPrice()
+comment3.text=\n\ Gets\ the\ price\ of\ this\ product\n\ \n\ @return\ the\ price\ of\ this\ product\n
+comment4.params=newPrice
+comment4.target=void\ setPrice(double)
+comment4.text=\n\ Sets\ the\ price\ of\ this\ product\n\ \n\ @param\ newPrice\ the\ new\ price\ of\ this\ product\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\n\ Gets\ a\ string\ representing\ this\ product\n\n\ @return\ a\ string\ representing\ this\ product\n
+numComments=6
