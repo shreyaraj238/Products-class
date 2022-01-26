@@ -9,12 +9,6 @@ public class ProductArray
     private int numOfProducts;
     /**
      * Gets a string representing all products in the array
-     *      
-     * @return A string containing all products in the array
-     *         in the following format, where each Producti()
-     *         is the string returned by the toString() method
-     *         on an element of the array:
-     *         [Product1(), Product2(), ..., Productn()]
      */
     @Override
     public String toString()
@@ -35,8 +29,6 @@ public class ProductArray
      * creating an array of Product of the specified 
      * length and setting the number of products in 
      * the array to zero. 
-     * 
-     * @param size the length of the array
      */
     public ProductArray(int size)
     {
@@ -51,9 +43,6 @@ public class ProductArray
      * the number of products. The method does not 
      * do anything if the array is full or the 
      * index is invalid.
-     *
-     * @param  index the position to insert 
-     * @param  product the product to insert
      */
     public void insert(int index, Product product)
     {
@@ -72,10 +61,6 @@ public class ProductArray
      * Gets the last element in the array whose price 
      * is in a given range [lowLimit, hightLimit].
      * 
-     * @param  lowLimit the low limit of the price range, inclusive
-     * @param  highLimit the high limit of the price range, inclusive
-     * @return the last element in the array whole price is in the range
-     *         null if no such elements in the array
      */
     public Product lastProductInRange(double lowLimit, double highLimit)
     {
