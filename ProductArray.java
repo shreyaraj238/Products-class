@@ -7,9 +7,6 @@
  */
 public class ProductArray
 {
-    // Step 2: Declare two instance variables (use the same names as below)
-    //            partialArray: an array of class Product
-    //            numOfProducts: number of products in the array
     private Product[] partialArray;
     private int numOfProducts;
     /**
@@ -35,7 +32,6 @@ public class ProductArray
         return s + "]";
     }
     
-    // Step 3: Complete the constructor
     /**
      * Constructs an object of class ProductArray by 
      * creating an array of Product of the specified 
@@ -50,7 +46,6 @@ public class ProductArray
         numOfProducts = 0;
     }
 
-    // Step 4: Complete method insert()
     /**
      * Inserts a product at a specified position and 
      * shifts the element at the position and all  
@@ -75,9 +70,6 @@ public class ProductArray
         }
     }
 
-    // Step 5: Complete method lastProductInRange()
-    //         You should exit the loop after finding the
-    //         last element satisfying the condition.
     /**
      * Gets the last element in the array whose price 
      * is in a given range [lowLimit, hightLimit].
