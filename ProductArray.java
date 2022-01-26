@@ -1,7 +1,5 @@
 /**
  * The class manages a partial array of class Product.
- *
- * Step 1: Enter your name for @author and the password for @version
  * @author  Shreya Raj
  * @version 46AisDone!
  */
